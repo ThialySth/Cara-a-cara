@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cara a cara</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="titulo">
+                <div class="flex">
+                    <h1>CARA A CARA</h1>
+                    <h2>Seu Personagem: <span id="nomeFamoso"></span></h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="personagens">
+        <div class="interface">
+            <div class="flex">
+                    
+                    <div class="cards-box" onclick="toggleSelection(this)"  >
+                        <img src= https://yt3.googleusercontent.com/0fMXIB_Vr6y8SMYLFg9ckLLsnSzT2fhaFL2lFikm2sSWfyjn4NTwSZEhwPcwszMZK7DMKTmi=s900-c-k-c0x00ffffff-no-rj alt="Zeca">
+                        <h1>Zeca</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" >
+                        <img src="https://s2-g1.glbimg.com/edM1HJtDGbHdDXZvhIJfUGiyWrA=/0x0:1080x1350/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/9/G/qfvEJ5Qdiq18A4BKQGJQ/matue4.jpg" alt="Matuê">
+                        <h1>Matuê</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" >
+                        <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn8Yi_KscQGkv9N6NxwXGMP_014kMZrgDE2_sbLgFnEQ&s alt="Cirilo">
+                        <h1>Cirilo</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" >
+                        <img src="https://portalpopline.com.br/wp-content/uploads/2023/11/xuxa-ccxp-capa-jpg.webp" alt="Xuxa">
+                        <h1>Xuxa</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" >
+                        <img src="https://www.opovo.com.br/_midias/jpg/2023/03/02/800x600/1_estevao_ferreira_estrela_do_whatsapp_comemorando_seu_aniversario_de_51_anos_1595532128319_v2_4x3-21278368.jpg" alt="Estevão Ferreira">
+                        <h1>Estevão F.</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" id="p6">
+                        <img src="https://9fc3a8af4f.cbaul-cdnwnd.com/927be903c4cce4373c1532a7e2bbf147/200000047-1458d15527/Et_Bil__400x400.jpg?ph=9fc3a8af4f" alt="ET bilu">
+                        <h1>ET bilu</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" id="p7">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQREb7xEZLaODcGKgH6ypN61gXCA8AFXAHe6piqSgc4ng&s" alt="Miranha">
+                        <h1>Miranha</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" id="p8">
+                        <img src="https://i.kym-cdn.com/photos/images/newsfeed/002/567/763/f4e.jpg" alt="Pabllo V.">
+                        <h1>Pabllo V.</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" id="p9">
+                        <img src="https://cdn.folhape.com.br/img/pc/1100/1/dn_arquivo/2024/02/1708902667.jpg" alt="Bolsonaro">
+                        <h1>Bolsonaro</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" id="p10">
+                        <img src="https://midias.correiobraziliense.com.br/_midias/jpg/2024/02/07/675x450/1_000_34hg934-34945036.jpg?20240208004904?20240208004904" alt="Lula">
+                        <h1>Lula</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" id="p11">
+                        <img src="https://pbs.twimg.com/profile_images/1699495162479517696/em74an43_400x400.jpg" alt="Chico Moedas">
+                        <h1>Chico M.</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" id="p12">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Casimiro.png" alt="Casimiro">
+                        <h1>Casimiro</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" id="p13">
+                        <img src="https://yt3.googleusercontent.com/FOnFpOfTPFk0pcVblYLBDlTvp5FoT9TmRmlSFzF-1Q4z5sVToedGvRpc9tmFo9daSjMRhob6ee8=s900-c-k-c0x00ffffff-no-rj" alt="Marília M.">
+                        <h1>Marília M.</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" id="p14">
+                        <img src="https://revistatrip.uol.com.br/dados/_imgBank/1584x1057x960x960x312x48/trip-187-paginas-negras-0012.webp" alt="">
+                        <h1>Wagner M.</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" id="p15">
+                        <img src="https://yt3.googleusercontent.com/wvlCpRqb9Hb9Yuv62LDo-AZxr-MpAHTvpeToBGpNOPSMNGQIyplQh2EZv75SLHOZIkpijT00=s900-c-k-c0x00ffffff-no-rj" alt="">
+                        <h1>Alanzoka</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" id="p16">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhdE03jB5KHe0OVNfjREJaS9TTRPhZkN4-Smt2QpBjJw&s" alt="">
+                        <h1>Batman</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" id="p17">
+                        <img src="https://s2-g1.glbimg.com/vOCKWWloAgKghdK69ovb9nsdhok=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/3/D/i0CmvBS7qJBFqyA1NW3w/leo-luns.jpg" alt="">
+                        <h1>Léo Lins</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" id="p18">
+                        <img src="https://s2.glbimg.com/jAalLfbJdLz5bvWRZIfO9A7vceA=/620x620/top/e.glbimg.com/og/ed/f/original/2015/09/11/escobar.jpg" alt="">
+                        <h1>Pablo Esc.</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" id="p19">
+                        <img src="https://yt3.googleusercontent.com/fqVEkuSr9CdD3yi8gDkZYebDE_d5UIuvtb-bvuja_xPQSPu6GSS7ha4c2rcJPNQIvXe6FUqOJvU=s900-c-k-c0x00ffffff-no-rj" alt="">
+                        <h1>Manoel G.</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" id="p20">
+                        <img src="https://blog.maxtitanium.com.br/wp-content/uploads/2023/06/paulo-muzy-sem-fundo.png" alt="">
+                        <h1>Muzy</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" id="p21">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR355RGM7Ro0pvPKMCt2Qs5hLIK6vYuMrOuwdHHL4pAtA&s" alt="">
+                        <h1>Tiringa</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" id="p22">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8WV_YFreeuhv6AEM3TmAsfOQ5at7_2pX0CN5YnaHD9A&s" alt="">
+                        <h1>Jesus</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" id="p23">
+                        <img src="https://static.historiadomundo.com.br/conteudo/images/adolf-hitler-realizando-saudacao-nazista-em-foto-1939-5c45fcb1567e9.jpg" alt="">
+                        <h1>Hitler</h1>
+                    </div>
+                    <div class="cards-box" onclick="toggleSelection(this)" id="p24">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJFbL5nBNSsNQB7XaJPkVoWdp0CpeDV_S7ieURoQAk_Q&s" alt="">
+                        <h1>Tereza</h1>
+                    </div>
+                </div>
+
+        </div>
+    </section>
+</body>
+</html>
